@@ -108,7 +108,7 @@ public class ControlFlowExercises {
 //            System.out.println("F");
 //        }
 
-        grades();
+//        grades();
     }
 }
 
@@ -163,44 +163,44 @@ public class ControlFlowExercises {
 
 // ============ RYAN'S  EXAMPLE TO RESOLVE GRADES WITH LETTERS =======================
 
-public static void grades (String[] args) {
-    Scanner input = new Scanner(System.in);
-    String letterGrade;
-    String userChoice;
-    short gradeNumber;
-    int gradeTotal;
-    int numberOfGrades;
-    int average;
-
-do {
-    System.out.println("Please input the student's grade between 0 an 100");
-    gradeNumber = input.nextShort();
-    if (gradeNumber >= 90) {
-        letterGrade = "A";
-    } else if (gradeNumber >= 80) {
-        letterGrade = "B";
-    } else if (gradeNumber >= 70) {
-        letterGrade = "C";
-    } else if (gradeNumber >= 60) {
-        letterGrade = "D";
-    } else if (gradeNumber >= 0 && gradeNumber <= 59) {
-        letterGrade = "F";
-    } else {
-        letterGrade = "This is not a valid grade. Please try again";
-    }
-
-    System.out.println("The calculated grade for " + gradeNumber + "is a grade of: " + letterGrade);
-
-    System.out.println("Do you want to calculate another grade?");
-    userChoice = input.next();
-
-} while (userChoice.equalsIgnoreCase(anotherString: "y") || userChoice.equalsIgnoreCase (anotherString: "yes"));
-
-    average = gradeTotal / numberOfGrades;
-    System.out.println("The average grade for all assignments is: " + average);
-    System.out.println("The average letter grade is : " + letterGrade(average));
-    }
-}
+//public static void grades (String[] args) {
+//    Scanner input = new Scanner(System.in);
+//    String letterGrade;
+//    String userChoice;
+//    short gradeNumber;
+//    int gradeTotal;
+//    int numberOfGrades;
+//    int average;
+//
+//do {
+//    System.out.println("Please input the student's grade between 0 an 100");
+//    gradeNumber = input.nextShort();
+//    if (gradeNumber >= 90) {
+//        letterGrade = "A";
+//    } else if (gradeNumber >= 80) {
+//        letterGrade = "B";
+//    } else if (gradeNumber >= 70) {
+//        letterGrade = "C";
+//    } else if (gradeNumber >= 60) {
+//        letterGrade = "D";
+//    } else if (gradeNumber >= 0 && gradeNumber <= 59) {
+//        letterGrade = "F";
+//    } else {
+//        letterGrade = "This is not a valid grade. Please try again";
+//    }
+//
+//    System.out.println("The calculated grade for " + gradeNumber + "is a grade of: " + letterGrade);
+//
+//    System.out.println("Do you want to calculate another grade?");
+//    userChoice = input.next();
+//
+//} while (userChoice.equalsIgnoreCase(anotherString: "y") || userChoice.equalsIgnoreCase (anotherString: "yes"));
+//
+//    average = gradeTotal / numberOfGrades;
+//    System.out.println("The average grade for all assignments is: " + average);
+//    System.out.println("The average letter grade is : " + letterGrade(average));
+//    }
+//}
 
 
 

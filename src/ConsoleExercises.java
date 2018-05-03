@@ -77,22 +77,22 @@ public class ConsoleExercises {
 
 
 
-        Scanner userInput = new Scanner(System.in);
-        float wide;
-        System.out.println("Enter wide of the classroom");
-        wide = userInput.nextFloat();
-
-        float length;
-        System.out.println("Enter length of the classroom");
-        length = userInput.nextFloat();
-
-        float area;
-        area = wide * length;
-        System.out.println(area);
-
-        float perimter;
-        perimter = 2 * length + 2 * wide;
-        System.out.println(perimter);
+//        Scanner userInput = new Scanner(System.in);
+//        float wide;
+//        System.out.println("Enter wide of the classroom");
+//        wide = userInput.nextFloat();
+//
+//        float length;
+//        System.out.println("Enter length of the classroom");
+//        length = userInput.nextFloat();
+//
+//        float area;
+//        area = wide * length;
+//        System.out.println(area);
+//
+//        float perimter;
+//        perimter = 2 * length + 2 * wide;
+//        System.out.println(perimter);
 
 
     }

@@ -7,6 +7,5 @@ public class StringExercise {
              "In windows, the main drive is usually C : \\ ";
         System.out.println(message);
 
-
     }
 }
