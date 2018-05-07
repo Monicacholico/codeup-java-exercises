@@ -27,7 +27,7 @@ public class Input {
             return value;
         }
 
-        int getInt(){
+        public int getInt(){
         return input.nextInt();
         }
 
@@ -46,6 +46,7 @@ public class Input {
            input.nextLine();
             return number;
         }
+
 }
 
 
