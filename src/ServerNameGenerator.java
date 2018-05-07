@@ -1,9 +1,32 @@
+import java.util.Random;
+
 public class ServerNameGenerator {
 
-    String [] adjectives = {};
+
+    public static String[] adjectives = {"strong", "interesting", "beautiful", "demanding", "spectacular", "artistic", "athletic","inspirational", "strict","classic"};
+    public static String[] nouns = {"ballet", "ballerina", "art", "dance", "tutu", "performance", "recital", "pointe shoes", "scenario", "principal"};
+
+    public static Random random = new Random();
+
+    public static String randomAdj(String[] comoEsElBallet){
+    int index = random.nextInt(adjectives.length);
+    return comoEsElBallet[index];
+    }
+
+    public static String randomNoun(String [] Ballet){
+        int index = random.nextInt(nouns.length);
+        return Ballet[index];
+    }
 
 
-    String [] nouns = {};
+    public static void main(String[] args) {
+
+
+        System.out.println("Here is your server name : \n" + randomAdj( adjectives) + " - "  + randomNoun(nouns));
+
+
+
+    }
 
 
 }

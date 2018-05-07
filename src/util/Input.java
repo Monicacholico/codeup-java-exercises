@@ -9,11 +9,8 @@ public class Input {
     public Input(){
         this.input = new Scanner(System.in);
     }
-
-
         public String getString(){
         return input.nextLine();
-//
         }
 
         public boolean yesNo(){

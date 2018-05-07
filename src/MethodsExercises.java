@@ -30,28 +30,6 @@ public class MethodsExercises {
             System.out.printf("Dice 1 is %d, Dice 2 is %d ", dice1, dice2);
         } while (wantsToContinue());
 
-
-        int randomNUmber = gamePickNumber();
-        int guess;
-        System.out.println(randomNUmber);
-        do {
-            guess = userPickNumber();
-            if(guess < randomNUmber){
-                System.out.println("HIGHER");
-            } else if (guess > randomNUmber){
-                System.out.println("LOWER");
-            } else{
-                System.out.println("GOOD GUESS");
-            }
-        } while (guess != randomNUmber);
-
-
-//        System.out.println("Pick a number between 1 and 100");
-//        Scanner input = new Scanner(System.in);
-//        int randomNumber = input.nextInt();
-//        int guessedn = 1;
-//        guessedn = game101(randomNumber);
-//        System.out.println("Factorial of " + randomNumber + " is: "  + guessedn);
     }
 
 
