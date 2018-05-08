@@ -20,7 +20,7 @@ public class MoviesApplication {
     }
 
 
-    public static void dramaCategory(String category){
+    public static void choiceCategory(String category){
         for(Movie movie: movies){
             if(movie.getCategory().equals(category)){
                 System.out.println(movie.getMovie() + " - - " +  movie.getCategory());
@@ -29,21 +29,21 @@ public class MoviesApplication {
         }
     }
 
-    public static void animatedCategory(String category){
-        for(Movie movie: movies){
-            if(movie.getCategory().equals(category)){
-                System.out.println(movie.getMovie() + " - - " + movie.getCategory());
-            }
-        }
-    }
+//    public static void animatedCategory(String category){
+//        for(Movie movie: movies){
+//            if(movie.getCategory().equals(category)){
+//                System.out.println(movie.getMovie() + " - - " + movie.getCategory());
+//            }
+//        }
+//    }
 
-    public static void scifiCategory(String category){
-        for(Movie movie: movies){
-            if(movie.getCategory().equals(category)){
-                System.out.println(movie.getMovie() + " - - " + movie.getCategory());
-            }
-        }
-    }
+//    public static void scifiCategory(String category){
+//        for(Movie movie: movies){
+//            if(movie.getCategory().equals(category)){
+//                System.out.println(movie.getMovie() + " - - " + movie.getCategory());
+//            }
+//        }
+//    }
 
     public static boolean wantsToContinue(){
         String answer = input.getString();
@@ -71,13 +71,11 @@ public class MoviesApplication {
                 case 2: allMovies();
                     break;
                 case 3:
-                    animatedCategory("animated");
+                    choiceCategory("animated");
                     break;
-                case 4:
-                    dramaCategory("drama");
+                case 4:choiceCategory("drama");
                     break;
-                case 5:
-                    scifiCategory("scifi");
+                case 5:choiceCategory("scifi");
                     break;
                 default:
                     System.out.println("Invalid choice");
@@ -94,6 +92,7 @@ public class MoviesApplication {
     public static void main(String[] args) {
 
         menu();
+        wantsToContinue();
 
 
     }
