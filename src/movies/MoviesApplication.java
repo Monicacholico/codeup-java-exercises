@@ -29,21 +29,6 @@ public class MoviesApplication {
         }
     }
 
-//    public static void animatedCategory(String category){
-//        for(Movie movie: movies){
-//            if(movie.getCategory().equals(category)){
-//                System.out.println(movie.getMovie() + " - - " + movie.getCategory());
-//            }
-//        }
-//    }
-
-//    public static void scifiCategory(String category){
-//        for(Movie movie: movies){
-//            if(movie.getCategory().equals(category)){
-//                System.out.println(movie.getMovie() + " - - " + movie.getCategory());
-//            }
-//        }
-//    }
 
     public static boolean wantsToContinue(){
         String answer = input.getString();

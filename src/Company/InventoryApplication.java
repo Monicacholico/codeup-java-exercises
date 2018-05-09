@@ -20,7 +20,7 @@ public class InventoryApplication {
         products [4]= new Product("banana phone", 20, 5 );
 
 
-        System.out.println("What kind of product do you wan to ad to the invoery");
+        System.out.println("What kind of product do you wan to ad to the inventory");
         System.out.println("Car, shoe, Subscription, or Other");
         Input input = new Input();
         String userChoice = input.getString();
