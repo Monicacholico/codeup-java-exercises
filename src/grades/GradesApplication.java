@@ -23,7 +23,7 @@ public class GradesApplication {
     public static void main(String[] args) {
 
         HashMap<String, Student> students = new HashMap<>();
-        // username as the key and email as the value
+
 
 
         Student studentgina = new Student ("Gina");
@@ -59,7 +59,7 @@ public class GradesApplication {
 
                 System.out.println("Welcome!\n Here are the github usernames of our students :");
                 for(Map.Entry<String, Student > entry: students.entrySet()){
-                    System.out.println (" | " + entry.getKey() + " | \t");
+                    System.out.printf(" | " + entry.getKey() + " | \t");
                 }
 
         do {
@@ -96,6 +96,7 @@ public class GradesApplication {
 
 
 
+        // username as the key and student as the value
 
 //        students.put("Usergina", new Student ("Gina"));
 //        students.put("UserJenn", new Student("Jenn"));
